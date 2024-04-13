@@ -78,6 +78,9 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
 
+    - name: Start SSH via tmate
+      uses: P3TERX/ssh2actions@main
+
     - name: Download package
       id: package
       run: |
