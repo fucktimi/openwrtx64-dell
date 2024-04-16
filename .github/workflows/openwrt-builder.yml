@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
@@ -78,8 +78,8 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
 
-    - name: Start SSH via tmate
-      uses: P3TERX/ssh2actions@main
+#    - name: Start SSH via tmate
+#      uses: P3TERX/ssh2actions@main
 
     - name: Download package
       id: package
