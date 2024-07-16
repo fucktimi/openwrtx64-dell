@@ -19,7 +19,7 @@
 # passwall2
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
-luci-theme-design
+#luci-theme-design
 git clone --depth=1 https://github.com/gngpp/luci-theme-design package/luci-theme-design
 #luci-app-fileassistant
 git clone --depth=1 https://github.com/kenzok78/luci-app-fileassistant package/luci-app-fileassistant
